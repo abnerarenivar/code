@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extracción de DUI desde MRZ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Extracción de DUI desde MRZ</h1>
+        </header>
+        <main>
+            <form id="mrzForm">
+                <label for="textareaMRZ">Ingrese el código MRZ:</label>
+                <textarea id="textareaMRZ" placeholder="Pegue aquí el código MRZ" rows="5"></textarea>
+
+                <label for="inputDUI">DUI Extraído:</label>
+                <input type="text" id="inputDUI" placeholder="El DUI aparecerá aquí" readonly>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2024 Herramienta de Validación</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
